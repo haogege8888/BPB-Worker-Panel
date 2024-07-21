@@ -199,7 +199,7 @@ export default {
                         });
 
                     default:
-                         return new Response('Not found', { status: 403 });
+                         return new Response('您的站点已禁用为：403', { status: 403 });
                         url.hostname = 'www.speedtest.net';
                         url.protocol = 'https:';
                         request = new Request(url, request);
